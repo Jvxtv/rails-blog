@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_filter :authorize, except: [:index, :show]
-  load_and_authorize_resource
+  authorize_resource
 
   def index
     @articles = Article.all
