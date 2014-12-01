@@ -9,6 +9,7 @@ gem 'clearance'
 gem 'cancancan', '~> 1.9'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'slim'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
